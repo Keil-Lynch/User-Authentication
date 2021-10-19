@@ -9,7 +9,7 @@ void main()
 	printf("Enter User name: ");
 	gets(username);
 	printf("Enter the password < any 8 characters>: ");
-	for (i = 0; i < 9; i++)
+	for (i = 0; i < 8; i++)
 	{
             ch = getchar();
             password[i] = ch;
@@ -19,7 +19,7 @@ void main()
         password[i] = '\0';
 
 	printf("\n Your password is :");
-	for (i = 0; i < 9; i++)
+	for (i = 0; i < 8; i++)
 	{
             printf("%c", password[i]);
 	}
